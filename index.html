@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gênio Quiz</title>
+    <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="tela-inicio" class="tela ">
+        <h1>Gênio Quiz MM</h1>
+        <p>
+            Esse é um projeto meu para treinar meu html, CSS e javascript!!
+        </p>
+        <div class="menu">
+            <button id="btn-comecar">
+                COMEÇAR
+            </button>
+            <button id="btn-sobre">
+                SOBRE
+            </button>
+            <button id="btn-instrucao">
+                INSTRUÇÃO
+            </button>
+        </div>
+
+    </section>
+
+    <section id="tela-pergunta" class="tela escondida">
+        <div class="cabecalho">
+            <span class="numero" id="numero-pergunta">1.</span>
+            <h2 id="titulo-pergunta">Qual país eu moro?</h2>
+        </div>
+
+        <div class="opcoes">
+            <button class="opcao" id="opcao-1">brasil</button>
+            <button class="opcao" id="opcao-2">mexico</button>
+            <button class="opcao" id="opcao-3">bolivia</button>
+            <button class="opcao" id="opcao-4">argentina</button>
+        </div>
+
+    </section>
+
+    <section id="tela-vitoria" class="tela escondida">
+        <h1>ACERTOU</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quasi numquam eaque perferendis officiis
+            corporis labore voluptatem magnam. Molestias in quidem tempore assumenda asperiores officiis qui corporis
+            dignissimos exercitationem velit?</p>
+        <button id="btn-jogar-novamente"> Jogar novamente </button>
+    </section>
+
+    <section id="tela-derrota" class="tela escondida">
+        <h1>YOU FAIL</h1>
+        <button id="btn-recomecar">Recomeçar</button>
+    </section>
+
+    <section id="tela-sobre" class="tela escondida">
+        <p> olá, fiz essa página para treinar meu HTML, CSS e Javascript, utilizei o Cloud IA para me instrucionar a fazer alguns passos.
+        </p>
+        <button id="btn-voltar-sobre">Voltar</button>
+    </section>
+
+    <section id="tela-instrucao" class="tela escondida">
+        <p> Até então as respostas então apenas nas alternativas!!
+        </p>
+        <button id="btn-voltar-instrucao">Voltar</button>
+    </section>
+
+    <footer class="rodape" id="rodape"> <span id="palavra-todos">Todos</span> direitos reservados © Matheus Máximo 2026</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
