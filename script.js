@@ -51,7 +51,7 @@ const perguntas = [
     alvo: "todos"
   },
   {
-    titulo: "Qual meu anime favorito?",
+  titulo: "Qual meu anime favorito?",
     opcoes: ["Hunter x Hunter", "Naruto", "Bleach", "AOT"],
     correta: 2
   },
